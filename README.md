@@ -11,10 +11,10 @@ This block of code helps your robot drive straight using just the Proportional C
  - Keeps checking average distance ((left + right)/2) until it reaches the target.
  - Calculates error = desired heading - current heading using the gyro.
 **In this code, these are the variables used.**
-_**    - distance: Target distance in degrees.
+    - distance: Target distance in degrees.
     - heading: Desired heading in degrees (irrelevant for p straight).
     - velocity: Speed (%)
-    - kp: Tuning constant. Start with 1–2 and test, this will be different for different robots. **_
+    - kp: Tuning constant. Start with 1–2 and test, this will be different for different robots. 
 **Tips:**
  - Tune kp until the robot drives straight with minimal wiggle.
  - DM me on discord (ast1) if you need any help, or want a more complex but more accurate code that uses a distance sensor as well as brain inertial.
